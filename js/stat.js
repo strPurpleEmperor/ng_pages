@@ -286,10 +286,6 @@
         }
       }
     };
-    request = new XMLHttpRequest();
-    request.open('POST', "//cdn.webglstats.com", true);
-    request.setRequestHeader('Content-Type', 'application/json');
-    return request.send(JSON.stringify(data));
   };
 
   loaded = false;
